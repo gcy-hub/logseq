@@ -1,0 +1,13 @@
+# Local credentials and machine-specific settings
+auth.json
+server-list
+
+# Logseq runtime files
+.DS_Store
+**/.DS_Store
+**/db-worker*.log
+**/db-worker.lock
+**/db.sqlite-wal
+
+# Historical database snapshots are local backups, not the active graph
+**/backup/
